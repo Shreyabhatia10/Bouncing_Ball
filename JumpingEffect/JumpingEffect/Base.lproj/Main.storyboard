@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="JumpingEffect" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="App_Background" translatesAutoresizingMaskIntoConstraints="NO" id="jUj-qP-dHU">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rsq-dX-mhC">
+                                <rect key="frame" x="58" y="782" width="98" height="48"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <state key="normal" title="Jump!!!">
+                                    <color key="titleColor" red="0.65770537009999996" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapJump:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rFq-0a-Y2b"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Soccer_Ball" translatesAutoresizingMaskIntoConstraints="NO" id="cfq-gz-byi">
+                                <rect key="frame" x="157" y="552" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="0lt-Tn-fT7"/>
+                                    <constraint firstAttribute="width" constant="100" id="hPk-By-Cx8"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="50"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OFY-U4-J2u">
+                                <rect key="frame" x="269" y="782" width="76" height="48"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <state key="normal" title="Stop?">
+                                    <color key="titleColor" red="0.38792252301147279" green="0.92214416273943822" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapStop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="erf-OK-I99"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="OFY-U4-J2u" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="100" id="5cc-0L-AMq"/>
+                            <constraint firstItem="OFY-U4-J2u" firstAttribute="top" secondItem="rsq-dX-mhC" secondAttribute="top" id="5jA-xu-cNE"/>
+                            <constraint firstItem="rsq-dX-mhC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-100" id="ENr-IH-Rdi"/>
+                            <constraint firstItem="jUj-qP-dHU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Icj-O3-nlr"/>
+                            <constraint firstItem="jUj-qP-dHU" firstAttribute="bottom" secondItem="rsq-dX-mhC" secondAttribute="bottom" constant="66" id="MGn-yL-Jhq"/>
+                            <constraint firstAttribute="bottom" secondItem="jUj-qP-dHU" secondAttribute="bottom" id="QwG-jn-9rW"/>
+                            <constraint firstItem="rsq-dX-mhC" firstAttribute="top" secondItem="cfq-gz-byi" secondAttribute="bottom" constant="130" id="TDa-8r-IWJ"/>
+                            <constraint firstAttribute="trailing" secondItem="jUj-qP-dHU" secondAttribute="trailing" id="bxX-AH-7zM"/>
+                            <constraint firstItem="jUj-qP-dHU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="hqJ-ZD-SRG"/>
+                            <constraint firstItem="cfq-gz-byi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rj4-aY-oV6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="soccerBall" destination="cfq-gz-byi" id="obZ-Id-AGI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-65.217391304347828" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="App_Background" width="466" height="467"/>
+        <image name="Soccer_Ball" width="1200" height="1202"/>
+    </resources>
+</document>

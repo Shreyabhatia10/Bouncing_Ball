@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B546B1E423619E50008705BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B546B1E323619E50008705BA /* AppDelegate.swift */; };
+		B546B1E623619E50008705BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B546B1E523619E50008705BA /* SceneDelegate.swift */; };
+		B546B1E823619E50008705BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B546B1E723619E50008705BA /* ViewController.swift */; };
+		B546B1EB23619E50008705BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B546B1E923619E50008705BA /* Main.storyboard */; };
+		B546B1ED23619E87008705BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B546B1EC23619E87008705BA /* Assets.xcassets */; };
+		B546B1F023619E87008705BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B546B1EE23619E87008705BA /* LaunchScreen.storyboard */; };
+		B546B1FB23619E88008705BA /* JumpingEffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B546B1FA23619E88008705BA /* JumpingEffectTests.swift */; };
+		B546B20623619E88008705BA /* JumpingEffectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B546B20523619E88008705BA /* JumpingEffectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B546B1F723619E88008705BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B546B1D823619E4F008705BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B546B1DF23619E4F008705BA;
+			remoteInfo = JumpingEffect;
+		};
+		B546B20223619E88008705BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B546B1D823619E4F008705BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B546B1DF23619E4F008705BA;
+			remoteInfo = JumpingEffect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B546B1E023619E50008705BA /* JumpingEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JumpingEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B546B1E323619E50008705BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B546B1E523619E50008705BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B546B1E723619E50008705BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B546B1EA23619E50008705BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B546B1EC23619E87008705BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B546B1EF23619E87008705BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B546B1F123619E87008705BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B546B1F623619E88008705BA /* JumpingEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JumpingEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B546B1FA23619E88008705BA /* JumpingEffectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpingEffectTests.swift; sourceTree = "<group>"; };
+		B546B1FC23619E88008705BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B546B20123619E88008705BA /* JumpingEffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JumpingEffectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B546B20523619E88008705BA /* JumpingEffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpingEffectUITests.swift; sourceTree = "<group>"; };
+		B546B20723619E88008705BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B546B1DD23619E4F008705BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B546B1F323619E88008705BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B546B1FE23619E88008705BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B546B1D723619E4F008705BA = {
+			isa = PBXGroup;
+			children = (
+				B546B1E223619E50008705BA /* JumpingEffect */,
+				B546B1F923619E88008705BA /* JumpingEffectTests */,
+				B546B20423619E88008705BA /* JumpingEffectUITests */,
+				B546B1E123619E50008705BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B546B1E123619E50008705BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B546B1E023619E50008705BA /* JumpingEffect.app */,
+				B546B1F623619E88008705BA /* JumpingEffectTests.xctest */,
+				B546B20123619E88008705BA /* JumpingEffectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B546B1E223619E50008705BA /* JumpingEffect */ = {
+			isa = PBXGroup;
+			children = (
+				B546B1E323619E50008705BA /* AppDelegate.swift */,
+				B546B1E523619E50008705BA /* SceneDelegate.swift */,
+				B546B1E723619E50008705BA /* ViewController.swift */,
+				B546B1E923619E50008705BA /* Main.storyboard */,
+				B546B1EC23619E87008705BA /* Assets.xcassets */,
+				B546B1EE23619E87008705BA /* LaunchScreen.storyboard */,
+				B546B1F123619E87008705BA /* Info.plist */,
+			);
+			path = JumpingEffect;
+			sourceTree = "<group>";
+		};
+		B546B1F923619E88008705BA /* JumpingEffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				B546B1FA23619E88008705BA /* JumpingEffectTests.swift */,
+				B546B1FC23619E88008705BA /* Info.plist */,
+			);
+			path = JumpingEffectTests;
+			sourceTree = "<group>";
+		};
+		B546B20423619E88008705BA /* JumpingEffectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B546B20523619E88008705BA /* JumpingEffectUITests.swift */,
+				B546B20723619E88008705BA /* Info.plist */,
+			);
+			path = JumpingEffectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B546B1DF23619E4F008705BA /* JumpingEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B546B20A23619E88008705BA /* Build configuration list for PBXNativeTarget "JumpingEffect" */;
+			buildPhases = (
+				B546B1DC23619E4F008705BA /* Sources */,
+				B546B1DD23619E4F008705BA /* Frameworks */,
+				B546B1DE23619E4F008705BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JumpingEffect;
+			productName = JumpingEffect;
+			productReference = B546B1E023619E50008705BA /* JumpingEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B546B1F523619E88008705BA /* JumpingEffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B546B20D23619E88008705BA /* Build configuration list for PBXNativeTarget "JumpingEffectTests" */;
+			buildPhases = (
+				B546B1F223619E88008705BA /* Sources */,
+				B546B1F323619E88008705BA /* Frameworks */,
+				B546B1F423619E88008705BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B546B1F823619E88008705BA /* PBXTargetDependency */,
+			);
+			name = JumpingEffectTests;
+			productName = JumpingEffectTests;
+			productReference = B546B1F623619E88008705BA /* JumpingEffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B546B20023619E88008705BA /* JumpingEffectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B546B21023619E88008705BA /* Build configuration list for PBXNativeTarget "JumpingEffectUITests" */;
+			buildPhases = (
+				B546B1FD23619E88008705BA /* Sources */,
+				B546B1FE23619E88008705BA /* Frameworks */,
+				B546B1FF23619E88008705BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B546B20323619E88008705BA /* PBXTargetDependency */,
+			);
+			name = JumpingEffectUITests;
+			productName = JumpingEffectUITests;
+			productReference = B546B20123619E88008705BA /* JumpingEffectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B546B1D823619E4F008705BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = shreya.bhatia;
+				TargetAttributes = {
+					B546B1DF23619E4F008705BA = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					B546B1F523619E88008705BA = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = B546B1DF23619E4F008705BA;
+					};
+					B546B20023619E88008705BA = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = B546B1DF23619E4F008705BA;
+					};
+				};
+			};
+			buildConfigurationList = B546B1DB23619E4F008705BA /* Build configuration list for PBXProject "JumpingEffect" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B546B1D723619E4F008705BA;
+			productRefGroup = B546B1E123619E50008705BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B546B1DF23619E4F008705BA /* JumpingEffect */,
+				B546B1F523619E88008705BA /* JumpingEffectTests */,
+				B546B20023619E88008705BA /* JumpingEffectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B546B1DE23619E4F008705BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B546B1F023619E87008705BA /* LaunchScreen.storyboard in Resources */,
+				B546B1ED23619E87008705BA /* Assets.xcassets in Resources */,
+				B546B1EB23619E50008705BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B546B1F423619E88008705BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B546B1FF23619E88008705BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B546B1DC23619E4F008705BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B546B1E823619E50008705BA /* ViewController.swift in Sources */,
+				B546B1E423619E50008705BA /* AppDelegate.swift in Sources */,
+				B546B1E623619E50008705BA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B546B1F223619E88008705BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B546B1FB23619E88008705BA /* JumpingEffectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B546B1FD23619E88008705BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B546B20623619E88008705BA /* JumpingEffectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B546B1F823619E88008705BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B546B1DF23619E4F008705BA /* JumpingEffect */;
+			targetProxy = B546B1F723619E88008705BA /* PBXContainerItemProxy */;
+		};
+		B546B20323619E88008705BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B546B1DF23619E4F008705BA /* JumpingEffect */;
+			targetProxy = B546B20223619E88008705BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B546B1E923619E50008705BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B546B1EA23619E50008705BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B546B1EE23619E87008705BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B546B1EF23619E87008705BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B546B20823619E88008705BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B546B20923619E88008705BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B546B20B23619E88008705BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JumpingEffect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shreya.bhatia.JumpingEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B546B20C23619E88008705BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JumpingEffect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shreya.bhatia.JumpingEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B546B20E23619E88008705BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JumpingEffectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shreya.bhatia.JumpingEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JumpingEffect.app/JumpingEffect";
+			};
+			name = Debug;
+		};
+		B546B20F23619E88008705BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JumpingEffectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shreya.bhatia.JumpingEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JumpingEffect.app/JumpingEffect";
+			};
+			name = Release;
+		};
+		B546B21123619E88008705BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JumpingEffectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shreya.bhatia.JumpingEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JumpingEffect;
+			};
+			name = Debug;
+		};
+		B546B21223619E88008705BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JumpingEffectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shreya.bhatia.JumpingEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JumpingEffect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B546B1DB23619E4F008705BA /* Build configuration list for PBXProject "JumpingEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B546B20823619E88008705BA /* Debug */,
+				B546B20923619E88008705BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B546B20A23619E88008705BA /* Build configuration list for PBXNativeTarget "JumpingEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B546B20B23619E88008705BA /* Debug */,
+				B546B20C23619E88008705BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B546B20D23619E88008705BA /* Build configuration list for PBXNativeTarget "JumpingEffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B546B20E23619E88008705BA /* Debug */,
+				B546B20F23619E88008705BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B546B21023619E88008705BA /* Build configuration list for PBXNativeTarget "JumpingEffectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B546B21123619E88008705BA /* Debug */,
+				B546B21223619E88008705BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B546B1D823619E4F008705BA /* Project object */;
+}
